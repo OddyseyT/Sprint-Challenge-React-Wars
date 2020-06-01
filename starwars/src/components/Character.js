@@ -12,8 +12,8 @@ import { Container, Col, Row, Card, CardHeader, CardFooter, CardBody,
           {props.characterArray.map(character => {
            return(    
   
-  <Col xs="3">
-  <Card key = {character.created} >
+  <Col xs="4">
+  <Card key = {character.created} className="mb-3" >
         <CardHeader>{character.name}</CardHeader>
         <CardBody>
  

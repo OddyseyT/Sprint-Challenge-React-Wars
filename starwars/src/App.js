@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import {Label, Input } from "reactstrap";
 import Character from "./components/Character"
 
 const App = () => {
@@ -22,7 +21,7 @@ const App = () => {
 }, []);
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">Star Wars Characters</h1>
 
 <Character characterArray ={char}/>
     </div>
